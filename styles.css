@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+}
+
+body{
+    background-color: #e7e8ec;
+}
+
+form{
+    background-color: white;
+    max-width: 500px;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);  
+    border-radius: 15px; 
+}
+
+form .entrar-em-contato{
+    text-align: center;
+    color: #5f7cba;
+}
+
+form input[type=text],
+form input[type=password]{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin: 10px 0;
+    transition: 1s;
+    border-radius: 5px;
+}
+form input[type=text]{
+    background-image: url(/images/untitled.svg);
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    background-size: 20px;
+    background-position: 15px;
+    
+}
+
+form input[type=password]{
+    background-image: url(/images/chave.svg);
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    background-size: 20px;
+    background-position: 15px;
+}
+
+form input[type=text]:focus{
+    background-color: #e7e8ec;
+}
+
+form input[type=password]:focus{
+    background-color: #e7e8ec;
+}
+
+form input[type=submit]{
+    margin-top: 15px;
+    margin-left: 10%;
+
+    width: 80%;
+    height: 35px;
+    cursor: pointer;
+    background-color: #5f7cba;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    transition: .9s;
+}
+
+form input[type=submit]:hover{
+    background-color: #4c6292;
+}
+
+.esqueceu-senha{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.esqueceu-senha a{
+    text-decoration: none;
+    color: #4c6292;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1px;
+}
+
+form .buttons-socials{
+    display: flex;
+    justify-content: center;
+
+}
+
+form .buttons-socials img{
+    margin-top: 15px;
+    width: 40px;
+    height: 40px;
+    transition: .5s;
+}
+
+form .buttons-socials img:hover{
+    transform: scale(1.1);
+}
+
+.face-img{
+    margin-left: 25px;
+}
+
+.ou{
+    color: #4c6292;
+    margin-top: 20px;
+
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.ou h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.entrar-rede-social{
+    color: #4c6292;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+    margin-top: 10px;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.entrar-rede-social h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1px;
+}
